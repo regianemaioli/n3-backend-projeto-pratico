@@ -13,7 +13,7 @@ exports.getById = (req, res) => {
   res.status(200).send(tarefas.find(tarefa => tarefa.id == id));
 };
 
-exports.getByNomeColaborador = (req, res) => {
+exports.getNomeColaborador = (req, res) => {
   const nome = req.params.nome;
   console.log(nome)
   res.status(200).send(tarefas.filter(tarefa => tarefa.nomeColaborador == nome));
