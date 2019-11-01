@@ -14,11 +14,11 @@ Projeto realizado no curso de backend do {reprograma}, onde desenvolvi uma API q
 
 ### Endpoints criados:
 
-- ID
-- Data de inclusão
-- Lista com descrição das tarefas
-- Check para verificar se o item já foi concluído
-- Nome do colaborador responsável
+- :female_detective: ID
+- 	:calendar:Data de inclusão
+- :page_facing_up: Lista com descrição das tarefas
+- :memo: Check para verificar se o item já foi concluído
+- :woman_health_worker: Nome do colaborador responsável
 
 ### Retorno
 
