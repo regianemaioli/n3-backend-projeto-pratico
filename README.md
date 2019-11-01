@@ -11,6 +11,8 @@ Projeto realizado no curso de backend do {reprograma}, onde desenvolvi uma API q
 - Visual Code
 - Postman
 - Git e Github
+- Express
+- Nodemon
 
 ### Endpoints criados:
 
