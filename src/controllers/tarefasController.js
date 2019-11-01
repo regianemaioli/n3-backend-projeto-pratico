@@ -27,3 +27,12 @@ exports.getConcluidos = (req, res) => {
     })
   );
 };
+//Ordenar por data de inclusão
+exports.getOrdenadas = (req, res) => {
+  const ordenar = tarefas.sort(function (a,b) {
+    return b.dataInclusao - a.dataInclusao;
+    res.status(200).send(ordenar);
+    console.log(tarefas.sort(ordenar)); 
+}) 
+
+};
